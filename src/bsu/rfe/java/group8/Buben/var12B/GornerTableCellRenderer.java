@@ -48,7 +48,7 @@ public class GornerTableCellRenderer implements TableCellRenderer {
         int indexDot = formattedDouble.indexOf(".");
         int count = 0;
 
-
+    
         if (indexDot != -1) {
             for (int i = indexDot + 1; i < formattedDouble.length(); i++) {
                 char letter = formattedDouble.charAt(i);
